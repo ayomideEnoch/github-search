@@ -1,0 +1,73 @@
+header {
+  margin-bottom: 50px;
+}
+
+header .header {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  padding: 10px;
+}
+
+header .header .logo svg {
+  height: 40px;
+  width: 40px;
+  fill: white;
+}
+.avatarLogout {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+.avatarLogout p {
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0 0.5rem;
+}
+.dropdown-toggle::after {
+  display: none !important; 
+}
+.nav-link {
+  padding: 0rem 0rem !important;
+}
+.dropdown-item {
+  color: #FF1733;
+}
+.dropdown-menu {
+  top: 1.5em !important;
+  left: -8.5em !important;
+  background: #FFFFFF;
+border: 1px solid rgba(196, 203, 214, 0.3);
+box-sizing: border-box;
+box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.2);
+border-radius: 3px;
+}
+.dropdown-item:hover {
+  color: #FF1733;
+}
+@media (max-width: 620px) {
+  header .header {
+    width: 90%;
+  }
+  header .header div #profile-search input {
+    width: 150px;
+  }
+  .dropdown-menu {
+    top: 1.5em !important;
+    left: -4.5em !important;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

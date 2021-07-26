@@ -1,0 +1,64 @@
+body {
+  min-height: 100vh;
+}
+#root, #App {
+  height: 100vh;
+}
+#App {
+  #heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  #profile {
+    .dummy-tabs {
+      margin-right: 0 !important;
+    }
+    .search-repo {
+      width: 80%;
+    }
+  }
+  .repo-container {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #profile {
+    flex-flow: column nowrap;
+    margin: 0 20px;
+    #info {
+      width: 100%;
+      text-align: center;
+      button {
+        width: 100%;
+      }
+    }
+    .dummy-tabs {
+      margin: 0 !important;
+      ul {
+        justify-content: space-between;
+        width: 100%;
+      }
+    }
+    .search-repo {
+      margin-top: 20px;
+      width: 100%;
+
+      #filter-repo {
+        width: 100%;
+        margin: 0;
+        flex-flow: row wrap;
+        .search-field {
+          width: 100%;
+        }
+      }
+      div {
+        .repo-container {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
