@@ -67,6 +67,9 @@ header .header .logo svg {
 .dropdown-item:hover {
   color: #FF1733;
 }
+a {
+  text-decoration: none !important;
+}
 @media (max-width: 620px) {
   header .header {
     width: 90%;
