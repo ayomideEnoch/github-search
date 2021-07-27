@@ -1,3 +1,8 @@
+*, ::after, ::before {
+  background: transparent !important;
+  box-sizing: border-box;
+}
+
 header {
   margin-bottom: 50px;
 }
@@ -29,13 +34,13 @@ header .header .logo svg {
 }
 .avatarLogout p {
   font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
-margin: 0 0.5rem;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0.5rem;
 }
 .dropdown-toggle::after {
   display: none !important; 
@@ -50,10 +55,14 @@ margin: 0 0.5rem;
   top: 1.5em !important;
   left: -8.5em !important;
   background: #FFFFFF;
-border: 1px solid rgba(196, 203, 214, 0.3);
-box-sizing: border-box;
-box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.2);
-border-radius: 3px;
+  border: 1px solid rgba(196, 203, 214, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.2);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.dropdown-menu:after { 
+  background: #FFFFFF;
 }
 .dropdown-item:hover {
   color: #FF1733;
