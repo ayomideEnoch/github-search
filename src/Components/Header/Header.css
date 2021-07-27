@@ -61,9 +61,9 @@ header .header .logo svg {
   border-radius: 3px;
   cursor: pointer;
 }
-.dropdown-menu:after { 
+/* .dropdown-menu:after { 
   background: #FFFFFF;
-}
+} */
 .dropdown-item:hover {
   color: #FF1733;
 }
