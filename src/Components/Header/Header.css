@@ -66,7 +66,7 @@ border-radius: 3px;
     width: 150px;
   }
   .dropdown-menu {
-    top: 1.5em !important;
+    top: 1em !important;
     left: -4.5em !important;
   }
 }
