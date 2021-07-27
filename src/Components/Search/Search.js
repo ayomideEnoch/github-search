@@ -10,8 +10,7 @@ const Search = props => {
             className="input-field"
             value={props.name}
             onChange={e => props.onChangeHandler(e)}
-          />
-          {/* <i class="fas fa-search"></i> */}
+          /><i class="fas fa-search"></i>
         </label><br />
         <button className="btn search" type="submit">
           Search Github

@@ -11,8 +11,6 @@ class Header extends Component {
       <header>
         <div className="header">
           <div className="logo">
-            <Link to="/">
-            </Link>
             <div class="avatarLogout">
             <img src={avatar} alt="avatar" class="avatar" />
                 <p>John Doe</p>
@@ -21,7 +19,7 @@ class Header extends Component {
                       <img src={caret} alt="caret" />
                 </Link>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <div class="dropdown-item">Logout</div>
+                <Link to="/"><div class="dropdown-item">Logout</div></Link>
                 </div>
               {/* </li> */}
               </div>
